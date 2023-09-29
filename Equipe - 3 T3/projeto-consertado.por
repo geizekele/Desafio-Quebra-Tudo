@@ -105,9 +105,9 @@ programa {
         media_car = mat.arredondar(tot_car / i, 3) // adicionei um arredondador de media
     }
 
-    escreva("\nO maior índice é: ", maior_indice, " pertence à cidade ", cidade_maior_indice)
-    escreva("\nO menor índice é: ", menor_indice, " pertence à cidade ", cidade_menor_indice)
-    escreva("\nCom base em todas as cidades, a média de veículos é: ", media_car)
+    escreva("\nO maior índice é: ", maior_indice * 100, "% pertence à cidade ", cidade_maior_indice)
+    escreva("\nO menor índice é: ", menor_indice * 100, "% pertence à cidade ", cidade_menor_indice)
+    escreva("\nCom base em todas as cidades, a média de veículos é: ", media_car + "%")
     escreva("\nEm cidades com total de carros menor que 2.000, a média de acidentes foi de: ", media_acidente)
 }
 
